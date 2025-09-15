@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    position: relative;
+    background-color: aliceblue;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#linkinput, #sizeinput{
+    padding: 5px;
+    height: 40px;
+    margin: 15px 0px;
+    width: 98%;
+}
+.title, label{
+    color: rgb(17, 180, 244);
+}
+
+.title{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    height: 30px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.btn1{
+    background-color: rgb(15, 228, 15);
+}
+
+.btn1:disabled{
+    background-color: rgba(128, 128, 128, 0.393);
+    cursor: not-allowed;
+}
+
+.btn2{
+    background-color: rgb(15, 153, 228);
+}
+
+.btn3{
+    background-color: rgb(232, 127, 127);
+}
+
+.minipopup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
