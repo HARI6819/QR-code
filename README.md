@@ -26,3 +26,5 @@ GoQR API for QR code generation
 Web Share API for native sharing support
 
 📸 Screenshots
+<img width="656" height="542" alt="Screenshot 2025-09-15 1320568" src="https://github.com/user-attachments/assets/c9493823-58b9-4152-b911-cf991a83d8b4" />
+
